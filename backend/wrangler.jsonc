@@ -3,7 +3,9 @@
   "name": "backend",
   "main": "src/index.ts",
   "compatibility_date": "2026-05-14",
+  "compatibility_flags": ["nodejs_compat"],
    "vars": {
-     "DATABASE_URL": "prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza19WRW9HT3l3dDRqaWNEd00xaC1tTFIiLCJhcGlfa2V5IjoiMDFLUko5QzQ4R1JYM0hEQkdYWjMxQVRSN04iLCJ0ZW5hbnRfaWQiOiI4NzljZDljNjQzY2JiMWRkYjRmMmM3NzdiOGY5YzM5ZTYwOGM0OTJjNTQxOTBiNTdkNDNmZTAzN2UxMWJkYjk1IiwiaW50ZXJuYWxfc2VjcmV0IjoiYzlmZjNhMzktNmRmYy00ZDkzLWI5YjUtMDJiMGViYWZkYjQ1In0.2aKFELW-U0VNqHOpdbNYhK6qhQL9SIGh-s_WrSNy2_c"
+    "DATABASE_URL":"prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqd3RfaWQiOjEsInNlY3VyZV9rZXkiOiJza183TklYLWxEdWk1WFN0MW8wTkFkb2siLCJhcGlfa2V5IjoiMDFLUkpKWDI5VkVIUEdBTTI4NjJZRks3U00iLCJ0ZW5hbnRfaWQiOiIwNzJmZTExODAzMDNhYzQzMTIwY2MzZGFlNTcxYTMxNmE3ZjQyNjQ3ODI1MmVhOTg4YzNhOTFhMzNlN2EyMGE2IiwiaW50ZXJuYWxfc2VjcmV0IjoiMTgxYjk3NzgtNjZhZS00ZjI5LWE5Y2UtZGY0MDBmZDEyZjU2In0.yT8PML98dRCBGb03r1TbHqG11m8CWsEnYg8osdQI6ms",
+     "JWT_SECRET":"secrte",
    }
 }
