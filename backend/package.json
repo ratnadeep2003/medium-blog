@@ -11,7 +11,7 @@
     "@prisma/extension-accelerate": "^1.1.0",
     "hono": "^4.12.18",
     "prisma": "^5.22.0",
-    "week13-common": "^1.0.0",
+    "week13-common": "^1.0.2",
     "zod": "^4.4.3"
   },
   "devDependencies": {
