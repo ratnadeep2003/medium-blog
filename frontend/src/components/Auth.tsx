@@ -5,6 +5,7 @@ import type { SignupInput } from "week13-common";
 import axios from "axios";
 import { BACKEND_URL } from "../config";
 
+
 export const Auth=({type}:{type:"signup"|"signin"})=>{
     const navigate = useNavigate();
     const [postInputs, setpostInputs] = useState<SignupInput>({
@@ -34,7 +35,7 @@ export const Auth=({type}:{type:"signup"|"signin"})=>{
                 <div>
                     <div className="px-10">
                         <div className="text-3xl font-extrabold">
-                            {type === "signin" ? "Dont have an account ?" : "Already have an account?"}
+                            {type === "signin" ? "Already have an account?" : "Create an account"}
                         </div>
                         <div className="text-slate-400">
                             Already have an account? 
